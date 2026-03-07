@@ -101,14 +101,14 @@ st.markdown(page_bg, unsafe_allow_html=True)
 # LOAD MODELS
 # ==========================================
 
-model = joblib.load("models/career_model.pkl")
-scaler = joblib.load("models/scaler.pkl")
-label_encoder = joblib.load("models/label_encoder.pkl")
-feature_columns = joblib.load("models/feature_columns.pkl")
-kmeans = joblib.load("models/kmeans.pkl")
-knn = joblib.load("models/knn.pkl")
-processed_df = joblib.load("models/processed_df.pkl")
-cluster_summary = joblib.load("models/cluster_summary.pkl")
+model = joblib.load("career_model.pkl")
+scaler = joblib.load("scaler.pkl")
+label_encoder = joblib.load("label_encoder.pkl")
+feature_columns = joblib.load("feature_columns.pkl")
+kmeans = joblib.load("kmeans.pkl")
+knn = joblib.load("knn.pkl")
+processed_df = joblib.load("processed_df.pkl")
+cluster_summary = joblib.load("cluster_summary.pkl")
 
 # ==========================================
 # SIDEBAR INPUT
@@ -404,5 +404,6 @@ with st.expander("👨‍🎓 Similar Students"):
             ["GPA","Python","SQL","Java","Projects","Career_Group"]
         ]
     )
+
 
 
