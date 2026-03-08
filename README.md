@@ -1,4 +1,4 @@
-# 🎓 CS Career Recommendation System
+#  CS Career Recommendation System
 
 A **Machine Learning–based web application** that recommends suitable career paths for Computer Science students based on their academic performance, programming skills, and project experience.
 
@@ -6,7 +6,7 @@ The system analyzes student profiles and predicts the most appropriate **career 
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 Choosing the right career path in computer science can be difficult because the field contains many specializations. This project helps students identify the most suitable career domain by analyzing their academic and technical skill profiles using machine learning.
 
@@ -14,7 +14,7 @@ The system predicts the best career path and also shows a **confidence score**, 
 
 ---
 
-# 🚀 Features
+#  Features
 
 - Interactive web-based dashboard
 - Student profile input form
@@ -26,7 +26,7 @@ The system predicts the best career path and also shows a **confidence score**, 
 
 ---
 
-# 📊 Input Features
+#  Input Features
 
 The system uses the following student attributes:
 
@@ -43,7 +43,7 @@ The system uses the following student attributes:
 
 ---
 
-# 🎯 Predicted Career Groups
+#  Predicted Career Groups
 
 The model predicts one of the following career categories:
 
@@ -76,7 +76,7 @@ The model predicts one of the following career categories:
 
 ---
 
-# 🧠 Machine Learning Model
+#  Machine Learning Model
 
 The project uses a **Random Forest Classifier** for career prediction.
 
@@ -88,7 +88,7 @@ Reasons for choosing this model:
 
 ---
 
-# 🖥️ How the System Works
+#  How the System Works
 
 1. The user enters their profile details in the dashboard.
 2. Input data is preprocessed and converted into numerical format.
@@ -100,7 +100,7 @@ Reasons for choosing this model:
 
 ---
 
-# 🌐 Deployment
+#  Deployment
 
 The application is deployed using **Streamlit Community Cloud**.
 
@@ -112,13 +112,13 @@ Steps for deployment:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
-Your Name  
-Computer Science Student
+Kifayatullah  
+Information Teachnology Student
 
 ---
 
-# 📜 License
+#  License
 
 This project is developed for **educational and academic purposes**.
